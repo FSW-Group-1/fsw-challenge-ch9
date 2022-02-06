@@ -26,7 +26,7 @@ export default class RegisterTest extends React.Component {
     }
 
     register = (e) => {
-        fetch('http://localhost:5000/user/register', {
+        fetch('http://localhost:5000/user/register',{
             method: 'post',
             headers: {
                 'Accept': 'application/json',
